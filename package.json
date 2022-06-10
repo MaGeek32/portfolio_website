@@ -1,5 +1,6 @@
 {
   "name": "portfolio_nextjs",
+  "homepage": "http://portfolio.windfish.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
