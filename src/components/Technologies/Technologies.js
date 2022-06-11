@@ -1,15 +1,14 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from 'react'
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di'
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents'
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles'
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      Focus on Front-End technologies.
     </SectionText>
     <List>
       <ListItem>
@@ -20,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            React ⋅ WordPress ⋅ Shopify
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,10 +28,10 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Servers&Domains</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            AWS ⋅ cPanel
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,16 +40,16 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Testing</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Android ⋅ iOS testing
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
     <SectionDivider colorAlt />
   </Section>
-);
+)
 
-export default Technologies;
+export default Technologies
