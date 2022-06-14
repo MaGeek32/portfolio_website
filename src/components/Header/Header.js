@@ -33,6 +33,10 @@ const Header = () => (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
 
+      <SocialIcons href="https://github.com/MaGeek32">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+
     </Div3>
   </Container>
 )

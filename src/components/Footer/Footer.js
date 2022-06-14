@@ -29,6 +29,10 @@ const Footer = () => {
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
 
+          <SocialIcons href="https://github.com/MaGeek32">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
