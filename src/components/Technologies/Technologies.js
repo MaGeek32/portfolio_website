@@ -8,7 +8,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Focus on Front-End technologies.
+      Full-Stack developer
     </SectionText>
     <List>
       <ListItem>
@@ -19,7 +19,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React ⋅ WordPress ⋅ Shopify
+            React Native ⋅ React.js ⋅ WordPress
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,7 +31,7 @@ const Technologies = () => (
           <ListTitle>Servers&Domains</ListTitle>
           <ListParagraph>
             Experience with <br />
-            AWS ⋅ cPanel
+            AWS ⋅ cPanel ⋅ Firebase
           </ListParagraph>
         </ListContainer>
       </ListItem>

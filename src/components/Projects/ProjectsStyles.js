@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Img = styled.img`
   width:100%;
@@ -22,6 +22,22 @@ row-gap: 3rem;
 }
 
 `
+
+export const TopGridContainer = styled.section`
+display: grid;
+padding: 3rem;
+place-items: center;
+@media ${(props) => props.theme.breakpoints.sm} {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+`
+
+
+
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
@@ -30,13 +46,24 @@ export const BlogCard = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
-`;
+`
+
+export const TopBlogCard = styled.div`
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  text-align: center;
+  width: 800px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
+`
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
 
-`;
+`
 
 
 export const HeaderThree = styled.h3`
@@ -45,7 +72,7 @@ export const HeaderThree = styled.h3`
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
-`;
+`
 
 export const Hr = styled.hr`
   width: 50px;
@@ -53,7 +80,7 @@ export const Hr = styled.hr`
   margin: 20px auto;
   border: 0;
   background: #d0bb57;
-`;
+`
 
 export const Intro = styled.div`
   width: 170px;
@@ -63,7 +90,7 @@ export const Intro = styled.div`
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
-`;
+`
 
 
 export const CardInfo = styled.p`
@@ -77,7 +104,7 @@ export const CardInfo = styled.p`
     padding:.3rem
   
 }
-`;
+`
 
 
 export const UtilityList = styled.ul`
@@ -86,7 +113,7 @@ export const UtilityList = styled.ul`
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
-`;
+`
 
 export const ExternalLinks = styled.a`
 color:#d4c0c0;
@@ -99,7 +126,7 @@ transition: 0.5s;
   background: #801414;
 
 }
-`;
+`
 
 export const TagList = styled.ul`
 display: flex;

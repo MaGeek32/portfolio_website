@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        After graduated from Monash University, I became a Front-End developer participated in a series of web projects (WordPress + Shopify + React).
+        After graduated from Monash University, I became a Full-Stack developer participated in a series of projects (React Native + React.js + WordPress).
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

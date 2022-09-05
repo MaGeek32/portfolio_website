@@ -1,45 +1,50 @@
 export const projects = [
+
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'GoCellar',
+    description: "GoCellar is an online wine shopping platform which helps users to pick wines around AU. It inlcudes an iOS and Android App with React-Native and a shopify website.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React-Native', 'Shopify', 'AWS', 'Testing'],
+    visit: 'https://play.google.com/store/apps/details?id=com.gocellar',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Longfellows Agency',
+    description: "An online agent platform that helps buyer and seller make deals with PPE (Personal Protection Equipment) goods such as masks and nitrile gloves.",
+    image: '/images/3.png',
+    tags: ['React.js', 'cPanel'],
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'ToolsRental',
+    description: "ToolRental is an online construction tools rental platform which helps users to pick construction tools around AU.",
+    image: '/images/4.png',
+    tags: ['React.js', 'AWS'],
     id: 3,
   },
+  {
+    title: ' Wembleydigital',
+    description: "Wembley Digital Solutions have over 20 years of experience cooperating with the traditional industries such as the wine industry and PPE trading.",
+    image: '/images/5.png',
+    tags: ['Wordpress', 'cPanel', 'CSS', 'Html'],
+    id: 0,
+  }
+]
+
+export const topProject = [
+  {
+    title: 'Windfish Cafe',
+    description: "Windfish Cafe is an application that helps you to capture inspiration in your daily life. You can use it to save your story fragments with 'Characters' and 'Timeline' functions.",
+    image: '/images/1.png',
+    tags: ['React-Native', 'Firebase', 'iOS', 'Android'],
+    visit: 'https://play.google.com/store/apps/details?id=com.cafe.windfish',
+    id: 0,
+  }
 ]
 
 export const TimeLineData = [
   { year: 2019, text: 'Graduated from Monash University', },
-  { year: 2020, text: 'Australong -- PPE agent online platform', },
-  { year: 2021, text: 'Gocellar -- Wine online shopping platform', },
-  { year: 2022, text: 'Toolsrental -- Construction tools rent & sell online platform', },
+  { year: 2020, text: 'Work as a full-stack developer in Wemebley Digital', },
+  { year: 2021, text: 'Participated in Gocellar -- Wine online shopping platform with React-Native', },
+  { year: 2022, text: 'Built Windfish Cafe -- My personal writing stories App with React-Native', },
 ]
